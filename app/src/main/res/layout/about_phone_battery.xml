@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <LinearLayout
+            android:id="@+id/volume_bg"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:orientation="horizontal"
+            android:background="@color/colorPrimary"
+            android:weightSum="1">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:layout_weight=".2"
+                android:weightSum="1">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".7">
+                    <!--<ImageView-->
+                        <!--android:id="@+id/backPress"-->
+                        <!--android:layout_width="match_parent"-->
+                        <!--android:layout_height="match_parent"-->
+                        <!--android:src="@android:drawable/ic_menu_revert"-->
+                        <!--android:padding="15dp"/>-->
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".3">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:textColor="#FFFFFF"
+                        android:textSize="18dp"
+                        android:letterSpacing=".2"
+                        android:text="VOLUME"/>
+                </LinearLayout>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight=".8">
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <!--<LinearLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:orientation="vertical">-->
+
+            <!--<LinearLayout-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="50dp"-->
+                <!--android:orientation="horizontal"-->
+                <!--android:weightSum="1">-->
+
+                <!--<TextView-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="match_parent"-->
+                    <!--android:layout_weight=".5"-->
+                    <!--style="@style/TextViewFont"-->
+                    <!--android:gravity="center_vertical"-->
+                    <!--android:paddingLeft="20dp"-->
+                    <!--android:text="Batterry Capacity :"-->
+                    <!--android:textSize="16dp" />-->
+
+                <!--<TextView-->
+                    <!--android:id="@+id/Capacity"-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="match_parent"-->
+                    <!--android:layout_weight=".5"-->
+                    <!--android:gravity="center_vertical"-->
+                    <!--android:paddingLeft="20dp"-->
+                    <!--style="@style/TextViewFont"-->
+                    <!--android:text="3000"-->
+                    <!--android:textSize="16dp" />-->
+            <!--</LinearLayout>-->
+
+            <!--<LinearLayout-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="50dp"-->
+                <!--android:layout_marginTop="5dp"-->
+                <!--android:orientation="horizontal"-->
+                <!--android:weightSum="1">-->
+
+                <!--<TextView-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="match_parent"-->
+                    <!--android:layout_weight=".5"-->
+                    <!--android:gravity="center_vertical"-->
+                    <!--android:paddingLeft="20dp"-->
+                    <!--style="@style/TextViewFont"-->
+                    <!--android:text="Battery Health :"-->
+                    <!--android:textSize="16dp" />-->
+
+                <!--<TextView-->
+                    <!--android:id="@+id/TxtHealth"-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="match_parent"-->
+                    <!--android:layout_weight=".5"-->
+                    <!--android:gravity="center_vertical"-->
+                    <!--android:paddingLeft="20dp"-->
+                    <!--style="@style/TextViewFont"-->
+                    <!--android:text="3000"-->
+                    <!--android:textSize="16dp" />-->
+            <!--</LinearLayout>-->
+
+            <!--<LinearLayout-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="50dp"-->
+                <!--android:layout_marginTop="5dp"-->
+                <!--android:orientation="horizontal"-->
+                <!--android:weightSum="1">-->
+
+                <!--<TextView-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="match_parent"-->
+                    <!--android:layout_weight=".5"-->
+                    <!--android:gravity="center_vertical"-->
+                    <!--android:paddingLeft="20dp"-->
+                    <!--style="@style/TextViewFont"-->
+                    <!--android:text="Battery Level :"-->
+                    <!--android:textSize="16dp" />-->
+
+                <!--<TextView-->
+                    <!--android:id="@+id/batteryPctTv"-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="match_parent"-->
+                    <!--style="@style/TextViewFont"-->
+                    <!--android:layout_weight=".5"-->
+                    <!--android:gravity="center_vertical"-->
+                    <!--android:paddingLeft="20dp"-->
+                    <!--android:text="3000"-->
+                    <!--android:textSize="16dp" />-->
+            <!--</LinearLayout>-->
+
+            <!--<LinearLayout-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="50dp"-->
+                <!--android:layout_marginTop="5dp"-->
+                <!--android:orientation="horizontal"-->
+                <!--android:weightSum="1">-->
+
+                <!--<TextView-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="match_parent"-->
+                    <!--android:layout_weight=".5"-->
+                    <!--android:gravity="center_vertical"-->
+                    <!--android:paddingLeft="20dp"-->
+                    <!--android:text="Plugged :"-->
+                    <!--style="@style/TextViewFont"-->
+                    <!--android:textSize="16dp" />-->
+
+                <!--<TextView-->
+                    <!--android:id="@+id/pluggedTv"-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="match_parent"-->
+                    <!--android:layout_weight=".5"-->
+                    <!--style="@style/TextViewFont"-->
+                    <!--android:gravity="center_vertical"-->
+                    <!--android:paddingLeft="20dp"-->
+                    <!--android:text="3000"-->
+                    <!--android:textSize="16dp" />-->
+            <!--</LinearLayout>-->
+
+            <!--<LinearLayout-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="50dp"-->
+                <!--android:layout_marginTop="5dp"-->
+                <!--android:orientation="horizontal"-->
+                <!--android:weightSum="1">-->
+
+                <!--<TextView-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="match_parent"-->
+                    <!--android:layout_weight=".5"-->
+                    <!--android:gravity="center_vertical"-->
+                    <!--style="@style/TextViewFont"-->
+                    <!--android:paddingLeft="20dp"-->
+                    <!--android:text="Charging Status :"-->
+                    <!--android:textSize="16dp" />-->
+
+                <!--<TextView-->
+                    <!--android:id="@+id/chargingStatusTv"-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="match_parent"-->
+                    <!--android:layout_weight=".5"-->
+                    <!--android:gravity="center_vertical"-->
+                    <!--style="@style/TextViewFont"-->
+                    <!--android:paddingLeft="20dp"-->
+                    <!--android:text="3000"-->
+                    <!--android:textSize="16dp" />-->
+            <!--</LinearLayout>-->
+
+
+            <!--<LinearLayout-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="50dp"-->
+                <!--android:layout_marginTop="5dp"-->
+                <!--android:orientation="horizontal"-->
+                <!--android:weightSum="1">-->
+
+                <!--<TextView-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="match_parent"-->
+                    <!--android:layout_weight=".5"-->
+                    <!--android:gravity="center_vertical"-->
+                    <!--style="@style/TextViewFont"-->
+                    <!--android:paddingLeft="20dp"-->
+                    <!--android:text="Voltage :"-->
+                    <!--android:textSize="16dp" />-->
+
+                <!--<TextView-->
+                    <!--android:id="@+id/voltageTv"-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="match_parent"-->
+                    <!--android:layout_weight=".5"-->
+                    <!--android:gravity="center_vertical"-->
+                    <!--android:paddingLeft="20dp"-->
+                    <!--android:text="3000"-->
+                    <!--style="@style/TextViewFont"-->
+                    <!--android:textSize="16dp" />-->
+            <!--</LinearLayout>-->
+
+            <!--<LinearLayout-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="50dp"-->
+                <!--android:layout_marginTop="5dp"-->
+                <!--android:orientation="horizontal"-->
+                <!--android:weightSum="1">-->
+
+                <!--<TextView-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="match_parent"-->
+                    <!--android:layout_weight=".5"-->
+                    <!--style="@style/TextViewFont"-->
+                    <!--android:gravity="center_vertical"-->
+                    <!--android:paddingLeft="20dp"-->
+                    <!--android:text="Temperature :"-->
+                    <!--android:textSize="16dp" />-->
+
+                <!--<TextView-->
+                    <!--android:id="@+id/tempTv"-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="match_parent"-->
+                    <!--android:layout_weight=".5"-->
+                    <!--android:gravity="center_vertical"-->
+                    <!--style="@style/TextViewFont"-->
+                    <!--android:paddingLeft="20dp"-->
+                    <!--android:text="3000"-->
+                    <!--android:textSize="16dp" />-->
+            <!--</LinearLayout>-->
+
+            <!--<LinearLayout-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="50dp"-->
+                <!--android:layout_marginTop="5dp"-->
+                <!--android:orientation="horizontal"-->
+                <!--android:weightSum="1">-->
+
+                <!--<TextView-->
+                    <!--android:id="@+id/textView3"-->
+                    <!--style="@style/TextViewFont"-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="match_parent"-->
+                    <!--android:layout_weight=".5"-->
+                    <!--android:gravity="center_vertical"-->
+                    <!--android:paddingLeft="20dp"-->
+                    <!--android:text="Technology :"-->
+                    <!--android:textSize="16dp" />-->
+
+                <!--<TextView-->
+                    <!--android:id="@+id/technologyTv"-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="match_parent"-->
+                    <!--android:layout_weight=".5"-->
+                    <!--android:gravity="center_vertical"-->
+                    <!--android:paddingLeft="20dp"-->
+                    <!--style="@style/TextViewFont"-->
+                    <!--android:text="3000"-->
+                    <!--android:textSize="16dp" />-->
+            <!--</LinearLayout>-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:gravity="center">
+            <SeekBar
+                android:id="@+id/seekBar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        </LinearLayout>
+
+
+    </LinearLayout>

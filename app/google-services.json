@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "687406711294",
+    "firebase_url": "https://fullbatteryalarm-17b92.firebaseio.com",
+    "project_id": "fullbatteryalarm-17b92",
+    "storage_bucket": "fullbatteryalarm-17b92.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:687406711294:android:ba86bd473b86cd79",
+        "android_client_info": {
+          "package_name": "com.replaycreation.application"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "687406711294-1eg9h7lgep2pgqpv2p2tqnfq8c82paf2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.replaycreation.application",
+            "certificate_hash": "581feb0c6ea0ec3bf2b690a107006b77f5a40b5b"
+          }
+        },
+        {
+          "client_id": "687406711294-2clbi1ej8uresh3fldqka4eoi1pd78d5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCrbA3TS03a3W2qApV-b7RLtUFCcBdSbQQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "687406711294-2clbi1ej8uresh3fldqka4eoi1pd78d5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

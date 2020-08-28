@@ -1,0 +1,109 @@
+<resources>
+    <string name="app_name">Full Battery Alarm</string>
+    <string name="app_intro_skip">SKIP</string>
+    <string name="placement_id">1495838983200</string>
+    <string name="battery_health_cold">COLD</string>
+    <string name="battery_health_dead">DEAD</string>
+    <string name="battery_health_good">GOOD</string>
+    <string name="battery_health_over_voltage">Voltage</string>
+    <string name="battery_health_overheat">Overheat</string>
+    <string name="battery_health_unspecified_failure">Failure</string>
+    <string name="battery_plugged_wireless">WireLess</string>
+    <string name="battery_plugged_usb">USB</string>
+    <string name="battery_plugged_ac">AC</string>
+    <string name="battery_plugged_none">None</string>
+    <string name="battery_status_full">FULL</string>
+    <string name="battery_status_discharging">DISCHARGING</string>
+    <string name="battery_status_charging">CHARGING</string>
+    <string name="title_activity_main2">Main2Activity</string>
+
+
+    //Introduction
+    <string name="alarm">
+       By default, the app will sound an alarm once the battery is full.\n\n
+
+You can change the battery alarm level in the settings menu.
+    </string>
+    <string name="health">
+       It helps you extend your battery lifespan by avoiding overcharging of battery.\n\n
+
+Research from battery university has shown an increase in the battery lifespan by up to 200%, if not overcharged.
+    </string>
+
+    <string name="moniter">
+        <font size="16"><b>Battery Monitor\n</b></font>
+        <font size="14">Accurate charging and discharging status</font>
+    </string>
+   <string name="flash_light">
+        <font size="16"><b>Flashlight\n</b></font>
+        <font size="14">Toggle flashlight using torch on/off button</font>
+    </string>
+   <string name="low_battery">
+        <font size="16"><b>Low Battery Notification\n</b></font>
+        <font size="14">It reminds you once your battery level is low.  Can be customized in settings.</font>
+    </string>
+   <string name="temp">
+        <font size="16"><b>High Temp. Warning\n</b></font>
+        <font size="14">Notifies once the battery temperature is high.</font>
+    </string>
+
+
+    <string name="junk_clean">Garbage cleanup</string>
+    <string name="process_clean">Process clean up</string>
+    <string name="apk_clean">Useless installation package</string>
+    <string name="tmp_clean">Temporary Files</string>
+    <string name="log_clean">Log file</string>
+    <string name="cache_clean">Cache trash</string>
+    <string name="system_cache">System cache</string>
+    <string name="title_activity_junk_clean">Recommended to clean up</string>
+    <string name="do_junk_clean">Clean up</string>
+
+    <string name="byte_short">B</string>
+    <!-- Suffix added to a number to signify size in kilobytes. -->
+    <string name="kilo_byte_short">KB</string>
+    <!-- Suffix added to a number to signify size in megabytes. -->
+    <string name="mega_byte_short">MB</string>
+    <!-- Suffix added to a number to signify size in gigabytes. -->
+    <string name="giga_byte_short">GB</string>
+    <!-- Suffix added to a number to signify size in terabytes. -->
+    <string name="tera_byte_short">TB</string>
+    <!-- Suffix added to a number to signify size in petabytes. -->
+    <string name="peta_byte_short">PB</string>
+
+    <string name="clean_file_size_suffix">%1$s%2$s</string>
+
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="remainingtime"><b>REMAINING TIME</b></string>
+
+    <string-array name="navigation_drawer_items_array">
+        <item>Connect</item>
+        <item>Fixtures</item>
+        <item>Table</item>
+    </string-array>
+
+    <string name="action_settings">
+         <font size="8">How to use</font></string>
+
+
+    <string name="how_to_use">
+        <font size="18">Theft Alarm :\n</font>
+
+        <font size="16">
+            A.To use theft alarm, connect the mobile charger and click on ‘Theft Alarm’.\n
+            B.You will then be asked to enter a password. This is a one-time activity.\n
+            C.After successfully configuring the password, the theft alarm will be activated.\n
+            D.Now if the phone is unplugged, an alarm will sound and will only stop by inserting the correct password.\n\n
+        </font>
+
+        <font size="18">Full Battery Alarm – \n</font>
+
+        <font size="16">
+            A.Once the application is installed, full battery alarm is activated.\n
+            B.While charging, once the battery is fully charged at 100%, the app will sound an alarm which can be stopped by either clicking the dismiss alarm button or by unplugging the charger.
+        </font>
+
+    </string>
+</resources>

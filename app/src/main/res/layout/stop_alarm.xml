@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="300dp"
+    android:background="#FFFFFF"
+    android:maxWidth="200dp"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:padding="5dp"
+            android:src="@drawable/ic_alarm_off_black_24dp"/>
+        <TextView
+            android:id="@+id/stopAlarm"
+            android:layout_width="200dp"
+            android:layout_margin="25dp"
+            android:layout_height="50dp"
+            android:textColor="#4E5A66"
+            android:text="STOP"
+            android:background="@drawable/corner_layout"
+            android:textSize="25dp"
+            android:gravity="center"/>
+
+        </LinearLayout>
+
+
+    </android.support.v7.widget.CardView>
